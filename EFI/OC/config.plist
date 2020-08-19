@@ -253,7 +253,7 @@
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
-			<false/>
+			<true/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
@@ -263,13 +263,13 @@
 			<key>ProtectMemoryRegions</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
-			<false/>
+			<true/>
 			<key>ProtectUefiServices</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>RebuildAppleMemoryMap</key>
-			<true/>
+			<false/>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -707,9 +707,9 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -797,7 +797,7 @@
 			<key>BootProtect</key>
 			<string>None</string>
 			<key>ExposeSensitiveData</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>HaltLevel</key>
 			<integer>0</integer>
 			<key>ScanPolicy</key>
@@ -878,13 +878,13 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
-			<false/>
+			<true/>
 			<key>MLB</key>
 			<string>D25439130J9F8YLJC</string>
 			<key>ROM</key>
 			<data>N/kuiPaF</data>
 			<key>SpoofVendor</key>
-			<false/>
+			<true/>
 			<key>SystemProductName</key>
 			<string>iMac14,2</string>
 			<key>SystemSerialNumber</key>
