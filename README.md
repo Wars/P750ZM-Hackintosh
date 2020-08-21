@@ -4,7 +4,9 @@
 
 * 使用 OC
    * Disable 掉 BIOS 中 **CFG_LOCK**
-   * 如不能关闭掉 **CFG_LOCK**, 请将 config.split 中以下两项 Quirks: **AppleCpuPmCfgLock、AppleXcpmCfgLock** 开启
+   * 如不能关闭掉 **CFG_LOCK**, 请将 config.split 中以下两项 Quirks 开启:
+      * **AppleCpuPmCfgLock**
+      * **AppleXcpmCfgLock**
 
 #### 1) 平台信息
 
