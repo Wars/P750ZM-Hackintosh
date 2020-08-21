@@ -1,5 +1,11 @@
 # 适用于蓝天 P750ZM / Clevo P750ZM / 未来人类 X599
 
+#### 0) 前置条件
+
+* 使用 OC
+   * Disable 掉 BIOS 中 **CFG_LOCK**
+   * 如不能关闭掉 **CFG_LOCK**, 请将 config.split 中以下两项 Quirks: **AppleCpuPmCfgLock、AppleXcpmCfgLock** 开启
+
 #### 1) 平台信息
 
 * 平台: Z97
